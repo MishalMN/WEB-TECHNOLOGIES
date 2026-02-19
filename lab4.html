@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Task 04 - HTML Forms</title>
+</head>
+<body>
+
+    <header>
+        <h1>Student Registration Form</h1>
+    </header>
+
+    <main>
+
+        <form action="#" method="post">
+
+            <!-- Personal Information Fieldset -->
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required>
+                </p>
+
+                <p>
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob">
+                </p>
+
+                <p>
+                    <label>Gender:</label><br>
+                    
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <!-- Academic Information Fieldset -->
+            <fieldset>
+                <legend>Academic Information</legend>
+
+                <p>
+                    <label for="department">Department:</label><br>
+                    <select id="department" name="department">
+                        <option value="">-- Select Department --</option>
+                        <option value="cse">Computer Science</option>
+                        <option value="se">Software Engineering</option>
+                        <option value="it">Information Technology</option>
+                        <option value="eee">Electrical Engineering</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label>Skills:</label><br>
+
+                    <input type="checkbox" id="html" name="skills" value="html">
+                    <label for="html">HTML</label>
+
+                    <input type="checkbox" id="css" name="skills" value="css">
+                    <label for="css">CSS</label>
+
+                    <input type="checkbox" id="cpp" name="skills" value="cpp">
+                    <label for="cpp">C++</label>
+
+                    <input type="checkbox" id="python" name="skills" value="python">
+                    <label for="python">Python</label>
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <!-- Form Controls -->
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </p>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Registration System</p>
+    </footer>
+
+</body>
+</html>
