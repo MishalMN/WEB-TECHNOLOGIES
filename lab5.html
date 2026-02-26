@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Academic Profile - Mishal</title>
+    <meta name="description" content="Personal academic profile page showcasing education, biography, and contact form.">
+    <meta name="keywords" content="Academic Profile, Student, Education, Internship, HTML5, Portfolio">
+    <meta name="author" content="Mishal">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Mishal</h1>
+        
+        <nav>
+            <a href="#biography">Biography</a> |
+            <a href="#education">Education</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Biography Section -->
+        <section id="biography">
+            <h2>Biography</h2>
+            <p>
+                I am a  Computer Science student passionate about programming,
+                algorithms, and software development. I am currently seeking internship
+                opportunities to enhance my technical and problem-solving skills.
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Educational Background</h2>
+
+            <table border="1">
+                <caption>Academic Qualifications</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Degree</th>
+                        <th scope="col">Institution</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Result</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>BSc in Computer Science</td>
+                        <td>ABC University</td>
+                        <td>2026</td>
+                        <td>CGPA 3.75</td>
+                    </tr>
+
+                    <tr>
+                        <td>Higher Secondary Certificate</td>
+                        <td>XYZ College</td>
+                        <td>2022</td>
+                        <td>GPA 5.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Secondary School Certificate</td>
+                        <td>City High School</td>
+                        <td>2020</td>
+                        <td>GPA 5.00</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" 
+                           placeholder="Enter your full name" 
+                           maxlength="50" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" 
+                           placeholder="example@email.com" 
+                           required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone"
+                           placeholder="01XXXXXXXXX"
+                           pattern="[0-9]{11}">
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message"
+                              placeholder="Write your message here..."
+                              maxlength="300"
+                              required></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Send Message">
+                    <input type="reset" value="Reset">
+                </p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact: mishal@example.com</p>
+        <p>&copy; 2026 Mishal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
