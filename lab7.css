@@ -1,0 +1,167 @@
+/* ===== Page Styling ===== */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Container */
+.container{
+    width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+
+h1{
+    text-align: center;
+    color:#333;
+    margin-bottom:20px;
+}
+
+/* ===== Form ===== */
+
+form{
+    display:flex;
+    gap:8px;
+    margin-bottom:15px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+input[type="text"]{
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    outline:none;
+}
+
+input[type="text"]:focus{
+    border-color:#667eea;
+}
+
+/* Buttons */
+
+button{
+    padding:10px 14px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+}
+
+/* Add Button */
+
+#add-btn{
+    background:#4caf50;
+    color:white;
+}
+
+#add-btn:hover{
+    background:#3e9442;
+}
+
+/* Sort Button */
+
+#sort-btn{
+    background:#2196f3;
+    color:white;
+    margin-top:10px;
+}
+
+#sort-btn:hover{
+    background:#1976d2;
+}
+
+/* Highlight button */
+
+#highlight-first{
+    background:#ff9800;
+    color:white;
+}
+
+#highlight-first:hover{
+    background:#e68900;
+}
+
+/* Search */
+
+#search-box{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+/* ===== Student List ===== */
+
+#student-list{
+    list-style:none;
+    padding:0;
+}
+
+/* Student Item */
+
+.student-item{
+    background:#f9f9f9;
+    padding:12px;
+    margin-bottom:10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-radius:6px;
+    border:1px solid #ddd;
+}
+
+/* Student name */
+
+.student-item span{
+    flex:1;
+    margin-left:10px;
+}
+
+/* Edit button */
+
+.student-item button:nth-child(3){
+    background:#4caf50;
+    color:white;
+}
+
+/* Delete button */
+
+.student-item button:nth-child(4){
+    background:#f44336;
+    color:white;
+    margin-left:5px;
+}
+
+/* ===== Present Student ===== */
+
+.present{
+    background:#c8f7c5;
+}
+
+/* ===== Highlight First Student ===== */
+
+.top-student{
+    border:3px solid gold;
+    background:#fffbe6;
+}
+
+/* ===== Counters ===== */
+
+#total-count,
+#attendance-count{
+    text-align:center;
+    font-weight:bold;
+    margin-top:10px;
+    color:#333;
+}

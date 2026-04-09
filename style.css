@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #eef2ff, #ffffff);
+    padding: 20px;
+    transition: 0.3s;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    padding: 10px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.present {
+    background: #d4f8d4;
+}
+
+.highlight {
+    background: #fff59d;
+}
+
+.top {
+    border: 2px solid blue;
+}
+
+/* 🌙 DARK MODE */
+.dark-mode {
+    background: #121212;
+    color: #eee;
+}
+
+.dark-mode input,
+.dark-mode li {
+    background: #1e1e1e;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.dark-mode button {
+    background: #333;
+    color: #fff;
+}
+
+.dark-mode .present {
+    background: #2e7d32;
+}
+
+.dark-mode .highlight {
+    background: #555;
+}
